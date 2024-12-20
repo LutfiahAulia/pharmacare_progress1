@@ -1,0 +1,148 @@
+{
+  "medicines": [
+    {
+      "name doctor": "dr. caca",
+      "name medicine": "Ibuprofen",
+      "stock": "500",
+      "price": 10000,
+      "expiryDate": "2024-06-30",
+      "id": "2"
+    },
+    {
+      "name doctor": "dr. salsa",
+      "name medicine": "Aspirin",
+      "stock": 200,
+      "price": 3000,
+      "expiryDate": "2023-11-30",
+      "id": "3"
+    },
+    {
+      "name doctor": "dr. faiqoh",
+      "name medicine": "Amoxicillin",
+      "stock": 75,
+      "price": 15000,
+      "expiryDate": "2024-01-15",
+      "id": "4"
+    },
+    {
+      "name doctor": "dr. mupidah",
+      "name medicine": "Cetirizine",
+      "stock": 120,
+      "price": 7000,
+      "expiryDate": "2023-10-20",
+      "id": "5"
+    },
+    {
+      "name doctor": "dr. napisah",
+      "id": "3a7c",
+      "name medicine": "test",
+      "stock": "1",
+      "price": "900000",
+      "expiryDate": "19/20/2005"
+    },
+    {
+      "id": "7d12",
+      "name": "",
+      "stock": "",
+      "price": "",
+      "expiryDate": ""
+    },
+    {
+      "id": "2aab",
+      "doctorname": "salsa",
+      "medicinename": "paramex",
+      "stock": "3",
+      "price": "30000",
+      "expiryDate": "20-12-2004"
+    }
+  ],
+  "prescriptions": [
+    {
+      "patientName": "John Doe",
+      "doctorName": "Dr. Smith",
+      "status": "Processed",
+      "medicines": [
+        "Paracetamol"
+      ],
+      "id": "1"
+    },
+    {
+      "patientName": "Jane Doe",
+      "doctorName": "Dr. Brown",
+      "status": "Pending",
+      "medicines": [
+        "Ibuprofen"
+      ],
+      "id": "2"
+    },
+    {
+      "patientName": "Alice Johnson",
+      "doctorName": "Dr. White",
+      "status": "Processed",
+      "medicines": [
+        "Aspirin"
+      ],
+      "id": "3"
+    },
+    {
+      "patientName": "Bob Smith",
+      "doctorName": "Dr. Green",
+      "status": "Pending",
+      "medicines": [
+        "Amoxicillin"
+      ],
+      "id": "4"
+    },
+    {
+      "patientName": "Charlie Brown",
+      "doctorName": "Dr. Black",
+      "status": "Processed",
+      "medicines": [
+        "Cetirizine"
+      ],
+      "id": "5"
+    }
+  ],
+  "orders": [
+    {
+      "customerName": "Alice",
+      "status": "Completed",
+      "medicines": [
+        "Paracetamol"
+      ],
+      "id": "1"
+    },
+    {
+      "customerName": "Bob",
+      "status": "Pending",
+      "medicines": [
+        "Ibuprofen"
+      ],
+      "id": "2"
+    },
+    {
+      "customerName": "Charlie",
+      "status": "Completed",
+      "medicines": [
+        "Aspirin"
+      ],
+      "id": "3"
+    },
+    {
+      "customerName": "David",
+      "status": "Pending",
+      "medicines": [
+        "Amoxicillin"
+      ],
+      "id": "4"
+    },
+    {
+      "customerName": "Eve",
+      "status": "Completed",
+      "medicines": [
+        "Cetirizine"
+      ],
+      "id": "5"
+    }
+  ]
+}
